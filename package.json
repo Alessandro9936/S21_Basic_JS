@@ -1,0 +1,23 @@
+{
+  "name": "s2i-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "netlify-cli": "^10.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alessandro9936/S2I-basic-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alessandro9936/S2I-basic-js/issues"
+  },
+  "homepage": "https://github.com/Alessandro9936/S2I-basic-js#readme"
+}

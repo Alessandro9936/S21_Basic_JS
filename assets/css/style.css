@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Work Sans", sans-serif;
+}
+
+.container {
+  position: relative;
+}
+
+.btn {
+  display: block;
+  height: 5rem;
+  width: 5rem;
+
+  border: none;
+  border-radius: 50%;
+  background-color: #252422;
+
+  font-size: 3rem;
+  color: white;
+
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(90%);
+}
+
+.calculator {
+  position: relative;
+  margin: 40rem auto;
+
+  display: flex;
+
+  width: 60rem;
+  height: 30rem;
+
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.left-switch {
+  background-color: #eb5e2b;
+  width: 20%;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.center-switch {
+  border: 10px solid #403d39;
+  border-radius: 10px;
+  background-color: #252422;
+  width: 80%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.display {
+  background-color: #fffcf2;
+  height: 85%;
+  width: 90%;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-switch {
+  background-color: #eb5e2b;
+  width: 20%;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.result {
+  font-size: 9rem;
+  font-weight: bold;
+  color: #252422;
+}
+
+.coin {
+  position: absolute;
+  top: 0;
+  left: 49%;
+
+  display: block;
+  height: 5rem;
+
+  z-index: -1;
+}
+
+.animation {
+  animation-duration: 0.2s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slidein {
+  from {
+    top: 0;
+  }
+
+  90% {
+    opacity: 90%;
+  }
+
+  to {
+    top: -30%;
+    opacity: 0;
+  }
+}
