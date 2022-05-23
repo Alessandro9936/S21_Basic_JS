@@ -13,7 +13,7 @@ html {
   position: relative;
 }
 
-.btn {
+.btn-style {
   display: block;
   height: 5rem;
   width: 5rem;
@@ -28,7 +28,7 @@ html {
   cursor: pointer;
 }
 
-.btn:active {
+.btn-style:active {
   transform: scale(90%);
 }
 
@@ -97,8 +97,10 @@ html {
 
 .coin {
   position: absolute;
-  top: 0;
-  left: 49%;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
 
   display: block;
   height: 5rem;
@@ -114,7 +116,7 @@ html {
 
 @keyframes slidein {
   from {
-    top: 0;
+    top: 50%;
   }
 
   90% {
@@ -122,7 +124,7 @@ html {
   }
 
   to {
-    top: -30%;
+    top: 30%;
     opacity: 0;
   }
 }

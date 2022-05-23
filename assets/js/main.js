@@ -1,15 +1,7 @@
-"use strict";
+import { addBtn, subBtn, refreshBtn, result } from "./buttons.js";
 
-let addBtn = document.querySelector(".add");
-let subBtn = document.querySelector(".subtract");
-let refreshBtn = document.querySelector(".refresh");
-let result = document.querySelector(".result");
-let coin = document.querySelector(".coin");
-let audio = document.querySelector(".coin-effect");
-
-addBtn.textContent = "+";
-subBtn.textContent = "-";
-refreshBtn.textContent = "⟳";
+const coin = document.querySelector(".coin");
+const audio = document.querySelector(".coin-effect");
 
 let num;
 
