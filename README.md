@@ -1,9 +1,17 @@
-# S2I-basic-js
+# S2I_Basic_JS
+This is the final project for the renowned italian learning platform Start2Impact - Javascript Basics Section
 
-## Description
+## Demo link
 
-Javascript Basic Project for Start2Impact. A simple counter that allows with three buttons to add +1, subtract -1 starting from 0. You can also press the third button (refresh button), to reset the counter and start again from 0.
+Try counter app on this link --> https://alessandrocounters2i.netlify.app/
 
-## Live
+## About the app
 
-You can try the counter on this link: https://alessandrocounters2i.netlify.app/
+A simple counter that allows with three buttons to add +1, subtract -1 starting from 0. You can also press the refresh button to reset the counter and start again from 0.
+
+## Screenshots
+![Nuova scheda - Google Chrome 2022-08-02 13-15-46 (3)](https://user-images.githubusercontent.com/64644550/183040726-62433a5b-7b24-4a73-acf6-4d5751f87c45.gif)
+
+## Technologies
+
+**HTML** - **CSS** - **JAVASCRIPT**
